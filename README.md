@@ -35,7 +35,7 @@ FACS_values = {'FACS_01' : 0.0,  'FACS_02': 1.0, 'FACS_04': 0.0,
                'FACS_23' : 0.0,  'FACS_24': 0.0, 'FACS_25': 0.0,
                'FACS_26' : 0.0,  'FACS_27': 0.0, 'FACS_28': 0.0}
 
-    client.simCharSetFacePresets(FACS_values)
+client.simCharSetFacePresets(FACS_values)
 
 ```
 
