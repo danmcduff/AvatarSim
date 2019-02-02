@@ -1,9 +1,10 @@
 # AvatarSim
 
+This repository contains an avatar environment that can be programaticly controlled from Python via AirSim (https://github.com/Microsoft/AirSim).
 
 ## Executable:
 
-The executable (avatarsim.exe) includes the avatar envrionment.  
+The executable (avatarsim.exe) includes the avatar envrionment.  It is compiles for Windows 10 and runs best Nvidia GTX 1080i GPU or higher.  An AirSim settings file is also included that 
 
 ## Avatar Control Scripts:
 
