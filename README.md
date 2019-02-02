@@ -6,6 +6,8 @@ This repository contains an avatar environment that can be programaticly control
 
 The executable (avatarsim.exe) includes the avatar envrionment.  It is compiles for Windows 10 and runs best Nvidia GTX 1080i GPU or higher.  An AirSim settings file is also included that 
 
+![Alt text](imgs/avatar.png?raw=true "Avatar")
+
 ## Avatar Control Scripts:
 
 Python scripts are included in the repository that illustrate how to control the avatar's facial pose and expressions in order to generate face images for testing face detection algorithms. Parameters that can be controlled programmaticly are: skin tone, age, head pose, head position, facial actions based on the Facial Action Coding System (FACS). 
