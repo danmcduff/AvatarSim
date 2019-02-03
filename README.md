@@ -4,7 +4,7 @@ This repository contains an avatar environment that can be programaticly control
 
 ## Executable:
 
-The executable (avatarsim.exe) includes the avatar envrionment.  It is compiles for Windows 10 and runs best Nvidia GTX 1080i GPU or higher.  An AirSim settings file is also included that 
+The executable (avatarsim.exe) includes the avatar envrionment.  It is compiles for Windows 10 and runs best Nvidia GTX 1080i GPU or higher.  An AirSim settings file is also included that is necessary.
 
 ![Alt text](imgs/avatar.png?raw=true "Avatar") <!-- .element height="50%" width="50%" -->
 
@@ -12,6 +12,7 @@ The executable (avatarsim.exe) includes the avatar envrionment.  It is compiles 
 
 Python scripts are included in the repository that illustrate how to control the avatar's facial pose and expressions in order to generate face images for testing face detection algorithms. Parameters that can be controlled programmaticly are: skin tone, age, head pose, head position, facial actions based on the Facial Action Coding System (FACS). 
 
+In your python script import airsim and initialize a VehicleClient that will be the avatar:
 ```python
 import airsim
 
@@ -20,7 +21,7 @@ client.confirmConnection()
 ```
 
 ### Head Pose and Position:
-Pitch, yaw and roll of the head can be set in radians.
+Pitch, yaw and roll of the head can be set in radians:
 
 
 ```python
@@ -32,7 +33,7 @@ client.simCharSetHeadRotation(q)                # Set the head rotation.
 
 
 
-The positions of "bones" can be set
+The positions of "bones" can be set. "Bones" do not correspond to physical bones but rather landmarks on the face, the position of which can be controlled in 3D space:
 ![Alt text](imgs/bone_positions.png?raw=true "Avatar")
 
 ```python
@@ -44,14 +45,14 @@ bone_setting = {'LUpperEyelid' : EyeLid}
 client.simCharSetBonePoses(bone_setting)
 ```
 
-Skin Tone and Age:
+The skin tone and age of the avatar can be set (values from 0 (light skin tone) to 1 (dark skin tone), 0 (young appearance) to 1 (old appearance):
 
 ```python
 # Set Skin Tone:
 client.simCharSetSkinDarkness(0.2)              # Set skin tone.
 ```
 
-Facial Coding:
+Present configurations of 24 facial actions (based on the Facial Action Coding System (FACS)) can be set:
 
 ```python
 FACS_values = {'FACS_01' : 0.0,  'FACS_02': 1.0, 'FACS_04': 0.0,
