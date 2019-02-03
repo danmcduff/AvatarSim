@@ -6,7 +6,7 @@ This repository contains an avatar environment that can be programaticly control
 
 The executable (avatarsim.exe) includes the avatar envrionment.  It is compiles for Windows 10 and runs best Nvidia GTX 1080i GPU or higher.  An AirSim settings file is also included that 
 
-![Alt text](imgs/avatar.png?raw=true "Avatar"| width=200)
+![Alt text](imgs/avatar.png?raw=true "Avatar" | width=200)
 
 ## Avatar Control Scripts:
 
@@ -33,7 +33,7 @@ client.simCharSetHeadRotation(q)                # Set the head rotation.
 
 
 The positions of "bones" can be set
-![Alt text](imgs/bone_positions.png?raw=true "Avatar"| width=200)
+![Alt text](imgs/bone_positions.png?raw=true "Avatar" | width=200)
 
 ```python
 # Set Bone Position:
