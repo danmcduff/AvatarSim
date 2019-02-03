@@ -33,7 +33,7 @@ client.simCharSetHeadRotation(q)                # Set the head rotation.
 
 
 The positions of "bones" can be set
-![Alt text](imgs/bone_positions.png?raw=true "Avatar" | width=200)
+![Alt text](imgs/bone_positions.png?raw=true "Avatar")
 
 ```python
 # Set Bone Position:
