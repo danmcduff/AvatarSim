@@ -12,6 +12,16 @@ The executable (avatarsim.exe) includes the avatar envrionment.  It is compiles 
 
 Python scripts are included in the repository that illustrate how to control the avatar's facial pose and expressions in order to generate face images for testing face detection algorithms. Parameters that can be controlled programmaticly are: skin tone, age, head pose, head position, facial actions based on the Facial Action Coding System (FACS). 
 
+The avatar
+
+Head Pose and Position:
+Pitch, yaw a
+
+Skin Tone and Age:
+
+
+Facial Coding:
+
 
 ### Example:
 
@@ -40,14 +50,6 @@ FACS_values = {'FACS_01' : 0.0,  'FACS_02': 1.0, 'FACS_04': 0.0,
 client.simCharSetFacePresets(FACS_values)
 
 ```
-
-Head Pose and Position:
-Pitch, yaw a
-
-Skin Tone and Age:
-
-
-Facial Coding:
 
 
 
