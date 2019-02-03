@@ -70,4 +70,5 @@ client.simCharSetFacePresets(FACS_values)
 
 ## Commerical Face API Scripts:
 
-We include example python scripts for a set of commercial face detection APIs. These scripts show how to interrogate the APIs with images generated from the avatar environment. 
+One thing this parametricly controlled avatar can be used for is interrogating the performance of face detection methods. We include example python scripts for a set of commercial face detection APIs. These scripts show how to interrogate the APIs with images generated from the avatar environment. 
+
