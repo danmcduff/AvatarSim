@@ -6,6 +6,8 @@ This repository contains an avatar environment that can be programaticly control
 
 The executable (avatarsim.exe) includes the avatar envrionment.  It is compiles for Windows 10 and runs best Nvidia GTX 1080i GPU or higher.  An AirSim settings file is also included that is necessary.
 
+The executable is large (1.3GB) and can be downloaded by clicking on the following [LINK](https://github.com/Microsoft/AirSim/releases/download/v1.2.1/TalkingHeads.zip).
+
 ![Alt text](imgs/avatar.png?raw=true "Avatar") <!-- .element height="50%" width="50%" -->
 
 ## Avatar Control Scripts:
